@@ -11,14 +11,26 @@ Car.init(
       primaryKey: true,
       autoIncrement: true
     },
-    name: {
+    manufacturer: {
       type: DataTypes.STRING,
       allowNull: false
     },
+    model: {
+      type: DataTypes.STRING,
+      allowNull: false
+    },
+    location_id: {
+      type: DataTypes.INTEGER,
+      references: {
+        model: 'location',
+        key: 'id'
+      }
+    }
   },
+
   {
     sequelize,
-    modelName: 'location',
+    modelName: 'car',
   }
 )
 
