@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Mieruru",
+    "email": "fakeEmail1@fakehost.com",
+    "password": "passw0rd"
+  },
+  {
+    "name": "test",
+    "email": "",
+    "password": ""
+  },
+  {
+    "name": "test",
+    "email": "",
+    "password": ""
+  },
+  {
+    "name": "test",
+    "email": "",
+    "password": ""
+  },
+  {
+    "name": "test",
+    "email": "",
+    "password": ""
+  },
+  {
+    "name": "test",
+    "email": "",
+    "password": ""
+  }
+]

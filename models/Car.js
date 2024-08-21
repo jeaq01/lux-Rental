@@ -11,13 +11,22 @@ Car.init(
       primaryKey: true,
       autoIncrement: true
     },
+    model: {
+      type: DataTypes.STRING,
+      allowNull: false
+    },
     manufacturer: {
       type: DataTypes.STRING,
       allowNull: false
     },
-    model: {
+    color: {
       type: DataTypes.STRING,
       allowNull: false
+    },
+    availablility: {
+      type: DataTypes.BOOLEAN,
+      allowNull: false,
+      defaultValue: true
     },
     location_id: {
       type: DataTypes.INTEGER,
@@ -25,9 +34,15 @@ Car.init(
         model: 'location',
         key: 'id'
       }
+    },
+    user_id: {
+      type: DataTypes.INTEGER,
+      references: {
+        model: 'user',
+        key: 'id'
+      }
     }
   },
-
   {
     sequelize,
     modelName: 'car',
