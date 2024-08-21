@@ -21,24 +21,28 @@ header,
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-shadow: 2px 2px 2px #461be1;
-  background: linear-gradient(to right,
-      #e0f7fa,
+  background:
+    linear-gradient(to right,
+      rgba(224, 247, 250, 0.8),
       /* Light Teal */
-      #80deea,
+      rgba(128, 222, 234, 0.8),
       /* Medium Light Teal */
-      #4dd0e1,
+      rgba(77, 208, 225, 0.8),
       /* Medium Teal */
-      #26c6da,
+      rgba(38, 198, 218, 0.8),
       /* Medium Dark Teal */
-      #00acc1
+      rgba(0, 172, 193, 0.8)
       /* Dark Teal/Blue */
-    );
+    ),
+    url('/public/lux.jpg') no-repeat center center fixed;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   margin: 0;
 }
+
 
 .login-container {
   background-color: #ffffff;
@@ -87,7 +91,10 @@ button:hover {
 }
 
 .shadowed-image {
-  width: 300px; /* Adjust the size of the image as needed */
-  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5); /* Horizontal, Vertical, Blur, Spread, Color */
-  border-radius: 8px; /* Optional: Add rounded corners to the image */
+  width: 300px;
+  /* Adjust the size of the image as needed */
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5);
+  /* Horizontal, Vertical, Blur, Spread, Color */
+  border-radius: 8px;
+  /* Optional: Add rounded corners to the image */
 }
