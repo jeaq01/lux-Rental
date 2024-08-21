@@ -20,7 +20,18 @@ header,
 
 body {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, sans-serif;
-  background: linear-gradient(to right, #f0f0f0, #b3b3b3, #666666, #1a1a1a);
+  background: linear-gradient(to right,
+      #e0f7fa,
+      /* Light Teal */
+      #80deea,
+      /* Medium Light Teal */
+      #4dd0e1,
+      /* Medium Teal */
+      #26c6da,
+      /* Medium Dark Teal */
+      #00acc1
+      /* Dark Teal/Blue */
+    );
   display: flex;
   justify-content: center;
   align-items: center;
