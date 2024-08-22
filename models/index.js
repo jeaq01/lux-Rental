@@ -3,22 +3,22 @@ const Location = require('./Location')
 const Car = require('./Car')
 
 Location.hasMany(Car, {
-  foreignKey: '',
+  foreignKey: 'location_id',
   onDelete: ''
 })
 
 
 Car.belongsTo(Location, {
-  foreignKey: '',
+  foreignKey: 'location_id',
 })
 
 User.has(Car, {
-  foreignKey: '',
+  foreignKey: 'user_id',
   onDelete: ''
 })
 
 Car.belongsTo(User, {
-  foreignKey: '',
+  foreignKey: 'user_id',
   onDelete: ''
 })
 

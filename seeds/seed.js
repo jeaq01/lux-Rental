@@ -13,6 +13,8 @@ const seedDatabase = async () => {
     returning: true,
   })
 
+
+  // below this line is all placeholder code that probably doesn't function correctly yet
   for (const location of locationData) {
     await Location.create({
       ...location,
@@ -20,6 +22,7 @@ const seedDatabase = async () => {
     })
   }
 
+  // below this line is all placeholder code that probably doesn't function correctly yet
   for (const car of carData) {
     await Car.create({
       ...car,
