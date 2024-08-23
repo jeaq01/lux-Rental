@@ -1,0 +1,32 @@
+[
+  {
+    "model": "murcielago",
+    "manufacturer": "lamborghini",
+    "color": "black"
+  },
+  {
+    "model": "huracan",
+    "manufacturer": "lamborghini",
+    "color": "black"
+  },
+  {
+    "model": "murcielago",
+    "manufacturer": "lamborghini",
+    "color": "red"
+  },
+  {
+    "model": "huracan",
+    "manufacturer": "lamborghini",
+    "color": "red"
+  },
+  {
+    "model": "murcielago",
+    "manufacturer": "lamborghini",
+    "color": "silver"
+  },
+  {
+    "model": "huracan",
+    "manufacturer": "lamborghini",
+    "color": "white"
+  }
+]

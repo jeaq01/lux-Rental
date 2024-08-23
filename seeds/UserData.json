@@ -1,0 +1,32 @@
+[
+  {
+    "name": "mieruru",
+    "email": "fakeEmail1@fakehost.com",
+    "password": "passw0rd"
+  },
+  {
+    "name": "test",
+    "email": "fakeEmail2@fakehost.com",
+    "password": "passw1rd"
+  },
+  {
+    "name": "test2",
+    "email": "fakeEmail3@fakehost.com",
+    "password": "passw2rd"
+  },
+  {
+    "name": "test3",
+    "email": "fakeEmail4@fakehost.com",
+    "password": "passw3rd"
+  },
+  {
+    "name": "test4",
+    "email": "fakeEmail5@fakehost.com",
+    "password": "passw4rd"
+  },
+  {
+    "name": "test5",
+    "email": "fakeEmail6@fakehost.com",
+    "password": "passw5rd"
+  }
+]
