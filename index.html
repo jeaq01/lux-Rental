@@ -8,6 +8,10 @@
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="public/css/styles.css">
+    <!-- Slick Carousel CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+</head>
 </head>
 
 <header>
@@ -25,61 +29,98 @@
 <body>
 
   <div class="container mx-auto p-4">
-    <h1 class="text-3xl font-bold mb-8 text-center">Step into a world of sophistication and drive your dream car with Lux. Whether it's a weekend getaway or a business trip, our handpicked fleet of luxury vehicles ensures you arrive in style. At Lux, we don't just rent cars—we create unforgettable experiences. Book your ride today and elevate every journey.
+    <h1 class="text-5xl font-bold mb-8 text-left italic" style="font-family: 'Roboto', sans-serif;">Step into a world of sophistication and drive your dream car with <span style="
+        background: linear-gradient(90deg, #FFD700, #FFA500, #FFD700);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: bold;
+        text-shadow: 0 1px 0 #b38600, 1px 2px 1px #999999, 1px 3px 1px #666666, 2px 4px 1px #333333, 3px 5px 3px #111111;
+    ">
+        Lux
+    </span>. 
 
     </h1>
-    <div class="grid grid-cols-3 gap-4">
+    <div class="carousel">
         <!-- Card 1 -->
         <div class="bg-white shadow-lg rounded-lg p-6">
-            <h2 class="text-xl font-bold mb-2">BMW</h2>
+            <h2 class="text-xl font-bold mb-2 italic">BMW</h2>
             <p class="text-gray-700">Description of Car 1.</p>
         </div>
         <!-- Card 2 -->
         <div class="bg-white shadow-lg rounded-lg p-6">
-            <h2 class="text-xl font-bold mb-2">Mercedes-Benz</h2>
+            <h2 class="text-xl font-bold mb-2 italic">Mercedes-Benz</h2>
             <p class="text-gray-700">Description of Car 2.</p>
         </div>
         <!-- Card 3 -->
         <div class="bg-white shadow-lg rounded-lg p-6">
-            <h2 class="text-xl font-bold mb-2">Audi</h2>
+            <h2 class="text-xl font-bold mb-2 italic">Audi</h2>
             <p class="text-gray-700">Description of Car 3.</p>
         </div>
         <!-- Card 4 -->
         <div class="bg-white shadow-lg rounded-lg p-6">
-            <h2 class="text-xl font-bold mb-2">Bentley</h2>
+            <h2 class="text-xl font-bold mb-2 italic">Bentley</h2>
             <p class="text-gray-700">Description of Car 4.</p>
         </div>
         <!-- Card 5 -->
         <div class="bg-white shadow-lg rounded-lg p-6">
-            <h2 class="text-xl font-bold mb-2">Lexus</h2>
+            <h2 class="text-xl font-bold mb-2 italic">Lexus</h2>
             <p class="text-gray-700">Description of Car 5.</p>
         </div>
         <!-- Card 6 -->
         <div class="bg-white shadow-lg rounded-lg p-6">
-            <h2 class="text-xl font-bold mb-2">Porsche</h2>
+            <h2 class="text-xl font-bold mb-2 italic">Porsche</h2>
             <p class="text-gray-700">Description of Car 6.</p>
         </div>
         <!-- Card 7 -->
         <div class="bg-white shadow-lg rounded-lg p-6">
-            <h2 class="text-xl font-bold mb-2">Rolls-Royce</h2>
+            <h2 class="text-xl font-bold mb-2 italic">Rolls-Royce</h2>
             <p class="text-gray-700">Description of Car 7.</p>
         </div>
         <!-- Card 8 -->
         <div class="bg-white shadow-lg rounded-lg p-6">
-            <h2 class="text-xl font-bold mb-2">Range Rover</h2>
+            <h2 class="text-xl font-bold mb-2 italic">Range Rover</h2>
             <p class="text-gray-700">Description of Car 8.</p>
         </div>
         <!-- Card 9 -->
         <div class="bg-white shadow-lg rounded-lg p-6">
-            <h2 class="text-xl font-bold mb-2">Aston Martin</h2>
+            <h2 class="text-xl font-bold mb-2 italic">Aston Martin</h2>
             <p class="text-gray-700">Description of Car 9.</p>
         </div>
     </div>
 </div>
-    <!-- <div class="container">
-        <h1>This is were we are gonna display the cars</h1>
+    <!-- Slick Carousel JS -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('.carousel').slick({
+            infinite: true,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            dots: true,
+            arrows: true,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
+        });
+    });
+</script>
 
-    </div> -->
 </body>
 
 </html>
