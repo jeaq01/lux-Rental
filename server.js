@@ -1,41 +1,11 @@
-const express = require('express');
-const exphbs = require('express-handlebars');
 
-const app = express();
-const port = 3000;
-
-// Set up Handlebars
-app.engine('handlebars', exphbs());
-app.set('view engine', 'handlebars');
-
-// Serve static files
-app.use(express.static('public'));
-
-// Routes
-app.get('/', (req, res) => {
-    res.render('index', {
-        title: 'Home',
-        // Add any data you want to pass to the template
-    });
-});
-
-app.get('/login', (req, res) => {
-    res.render('login', {
-        title: 'Login',
-        // Add any data you want to pass to the template
-    });
-});
-
-app.listen(port, () => {
-    console.log(`Server running on http://localhost:${port}`);
-=======
 // define required packages
 const path = require('path')
 const express = require('express')
 const session = require('express-session')
 const exphbs = require('express-handlebars')
 const routes = require('./controllers')
-const helpers = require('./utils/helpers')
+// const helpers = require('./utils/helpers')
 
 const sequelize = require('./config/connection')
 const SequelizeStore = require('connect-session-sequelize')(session.Store)
@@ -45,7 +15,8 @@ const app = express()
 const PORT = process.env.PORT || 3001
 
 // locate handlebars helpers
-const hbs = exphbs.create({ helpers })
+// const hbs = exphbs.create({ helpers })
+const hbs = exphbs.create({ })
 
 // session objects and cookies
 const sess = {
