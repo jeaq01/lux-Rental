@@ -4,7 +4,7 @@ const Car = require('./Car')
 
 Location.hasMany(Car, {
   foreignKey: 'location_id',
-  onDelete: ''
+  onDelete: 'CASCADE'
 })
 
 
@@ -12,14 +12,13 @@ Car.belongsTo(Location, {
   foreignKey: 'location_id',
 })
 
-User.has(Car, {
+User.hasOne(Car, {
   foreignKey: 'user_id',
-  onDelete: ''
+  onDelete: 'CASCADE'
 })
 
 Car.belongsTo(User, {
   foreignKey: 'user_id',
-  onDelete: ''
 })
 
 module.exports = { User, Location, Car }
