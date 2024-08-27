@@ -45,6 +45,7 @@ Car.init(
   },
   {
     sequelize,
+    freezeTableName: true,
     modelName: 'car',
   }
 )

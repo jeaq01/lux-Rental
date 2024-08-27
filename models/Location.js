@@ -18,6 +18,7 @@ Location.init(
   },
   {
     sequelize,
+    freezeTableName: true,
     modelName: 'location',
   }
 )

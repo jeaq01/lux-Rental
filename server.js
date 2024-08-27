@@ -16,7 +16,7 @@ const PORT = process.env.PORT || 3001
 
 // locate handlebars helpers
 // const hbs = exphbs.create({ helpers })
-const hbs = exphbs.create({ })
+const hbs = exphbs.create({})
 
 // session objects and cookies
 const sess = {
@@ -47,5 +47,5 @@ app.use(express.static(path.join(__dirname, 'public')))
 app.use(routes)
 
 sequelize.sync({ force: false }).then(() => {
-  app.listen(PORT, () => console.log('Now listening'))
+  app.listen(PORT, () => console.log(`Now listening @ http://localhost:${PORT}`))
 });
