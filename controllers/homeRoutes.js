@@ -4,6 +4,14 @@ const { Project, User } = require('../models');
 
 router.get('/', async (req, res) => {
   try {
+
+    const carData = await Car.findAll();
+    const cars = carData.map((car) => car.get({ plain: true }));
+    res.render('homepage', { cars, logged_in: req.session.logged_in });
+  } catch (err) {
+    res.status(500).json(err);
+  }
+});
     // // Get all projects and JOIN with user data
     // const projectData = await Project.findAll({
     //   include: [
