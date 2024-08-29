@@ -11,6 +11,13 @@
         </span>.
     </h1>
     <div class="carousel">
+        {{#each cars}}
+        <div class="bg-white shadow-lg hover:shadow-2xl rounded-lg p-6 w-64 h-80 transition-shadow duration-300">
+            <img src="/images/{{this.image}}" alt="{{this.name}}" class="w-full h-48 object-cover rounded-t-lg">
+            <h2 class="text-xl font-bold mb-2 italic">{{this.name}}</h2>
+            <p class="text-gray-700">{{this.description}}</p>
+        </div>
+        {{/each}}
         <!-- Card 1 -->
         <div class="bg-white shadow-lg hover:shadow-2xl rounded-lg p-6 w-64 h-80 transition-shadow duration-300">
             <img src="/images/bmw.jpg" alt="BMW" class="w-full h-48 object-cover rounded-t-lg">
