@@ -17,16 +17,14 @@ const seedDatabase = async () => {
   // below this line is all placeholder code that probably doesn't function correctly yet
   for (const location of locationData) {
     await Location.create({
-      ...location,
-      user_id: users[Math.floor(Math.random() * users.length)].id,
+      ...location
     })
   }
 
   // below this line is all placeholder code that probably doesn't function correctly yet
   for (const car of carData) {
     await Car.create({
-      ...car,
-      user_id: users[Math.floor(Math.random() * users.length)].id,
+      ...car
     })
   }
 
