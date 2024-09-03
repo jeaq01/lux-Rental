@@ -1,0 +1,112 @@
+[
+  {
+    "manufacturer": "lamborghini",
+    "model": "murcielago",
+    "color": "black"
+  },
+  {
+    "manufacturer": "lamborghini",
+    "model": "huracan",
+    "color": "black"
+  },
+  {
+    "manufacturer": "lamborghini",
+    "model": "murcielago",
+    "color": "red"
+  },
+  {
+    "manufacturer": "lamborghini",
+    "model": "huracan",
+    "color": "red"
+  },
+  {
+    "manufacturer": "lamborghini",
+    "model": "murcielago",
+    "color": "silver"
+  },
+  {
+    "manufacturer": "lamborghini",
+    "model": "huracan",
+    "color": "white"
+  },
+  {
+    "manufacturer": "lexus",
+    "model": "lc hybrid",
+    "color": "black"
+  },
+  {
+    "manufacturer": "lexus",
+    "model": "lc hybrid",
+    "color": "red"
+  },
+  {
+    "manufacturer": "lexus",
+    "model": "lc hybrid",
+    "color": "red"
+  },
+  {
+    "manufacturer": "lexus",
+    "model": "lc convertible",
+    "color": "black"
+  },
+  {
+    "manufacturer": "lexus",
+    "model": "lc convertible",
+    "color": "gold"
+  },
+  {
+    "manufacturer": "audi",
+    "model": "TT",
+    "color": "black"
+  },
+  {
+    "manufacturer": "audi",
+    "model": "r8",
+    "color": "black"
+  },
+  {
+    "manufacturer": "audi",
+    "model": "r8",
+    "color": "silver"
+  },
+  {
+    "manufacturer": "porsche",
+    "model": "boxter",
+    "color": "black"
+  },
+  {
+    "manufacturer": "porsche",
+    "model": "boxter",
+    "color": "silver"
+  },
+  {
+    "manufacturer": "porsche",
+    "model": "cayaman gt4",
+    "color": "black"
+  },
+  {
+    "manufacturer": "porsche",
+    "model": "cayaman gt4",
+    "color": "silver"
+  },
+  {
+    "manufacturer": "rolls-royce",
+    "model": "spectre",
+    "color": "black"
+  },
+  {
+    "manufacturer": "rolls-royce",
+    "model": "spectre",
+    "color": "black"
+  },
+  {
+    "manufacturer": "rolls-royce",
+    "model": "spectre",
+    "color": "gold"
+  },
+  {
+    "manufacturer": "rolls-royce",
+    "model": "spectre",
+    "color": "silver"
+  }
+]
