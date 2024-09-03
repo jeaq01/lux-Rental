@@ -2,111 +2,133 @@
   {
     "manufacturer": "lamborghini",
     "model": "murcielago",
-    "color": "black"
+    "color": "black",
+    "image": "/images/lamborghinimurcielagoblack.jpg"
   },
   {
     "manufacturer": "lamborghini",
     "model": "huracan",
-    "color": "black"
+    "color": "black",
+    "image": "/images/lamborghinihuracanblack.jpg"
   },
   {
     "manufacturer": "lamborghini",
     "model": "murcielago",
-    "color": "red"
+    "color": "red",
+    "image": "/images/lamborghinimurcielagored.jpg"
   },
   {
     "manufacturer": "lamborghini",
     "model": "huracan",
-    "color": "red"
+    "color": "red",
+    "image": "/images/lamborghinihuracanred.jpg"
   },
   {
     "manufacturer": "lamborghini",
     "model": "murcielago",
-    "color": "silver"
+    "color": "silver",
+    "image": "/images/lamborghinimurcielagosilver.jpg"
   },
   {
     "manufacturer": "lamborghini",
     "model": "huracan",
-    "color": "white"
+    "color": "white",
+    "image": "/images/lamborghinihuracanwhite.jpg"
   },
   {
     "manufacturer": "lexus",
     "model": "lc hybrid",
-    "color": "black"
+    "color": "black",
+    "image": "/images/lexus.jpg"
   },
   {
     "manufacturer": "lexus",
     "model": "lc hybrid",
-    "color": "red"
+    "color": "red",
+    "image": "/images/lexus.jpg"
   },
   {
     "manufacturer": "lexus",
     "model": "lc hybrid",
-    "color": "red"
+    "color": "red",
+    "image": "/images/lexus.jpg"
   },
   {
     "manufacturer": "lexus",
     "model": "lc convertible",
-    "color": "black"
+    "color": "black",
+    "image": "/images/lexus.jpg"
   },
   {
     "manufacturer": "lexus",
     "model": "lc convertible",
-    "color": "gold"
+    "color": "gold",
+    "image": "/images/lexus.jpg"
   },
   {
     "manufacturer": "audi",
     "model": "TT",
-    "color": "black"
+    "color": "black",
+    "image": "/images/audi.jpg"
   },
   {
     "manufacturer": "audi",
     "model": "r8",
-    "color": "black"
+    "color": "black",
+    "image": "/images/audi.jpg"
   },
   {
     "manufacturer": "audi",
     "model": "r8",
-    "color": "silver"
+    "color": "silver",
+    "image": "/images/audi.jpg"
   },
   {
     "manufacturer": "porsche",
     "model": "boxter",
-    "color": "black"
+    "color": "black",
+    "image": "/images/porsche.jpg"
   },
   {
     "manufacturer": "porsche",
     "model": "boxter",
-    "color": "silver"
+    "color": "silver",
+    "image": "/images/porsche.jpg"
   },
   {
     "manufacturer": "porsche",
     "model": "cayaman gt4",
-    "color": "black"
+    "color": "black",
+    "image": "/images/porsche.jpg"
   },
   {
     "manufacturer": "porsche",
     "model": "cayaman gt4",
-    "color": "silver"
+    "color": "silver",
+    "image": "/images/porsche.jpg"
   },
   {
     "manufacturer": "rolls-royce",
     "model": "spectre",
-    "color": "black"
+    "color": "black",
+    "image": "/images/rollsroyce.jpg"
   },
   {
     "manufacturer": "rolls-royce",
     "model": "spectre",
-    "color": "black"
+    "color": "black",
+    "image": "/images/rollsroyce.jpg"
   },
   {
     "manufacturer": "rolls-royce",
     "model": "spectre",
-    "color": "gold"
+    "color": "gold",
+    "image": "/images/rollsroyce.jpg"
   },
   {
     "manufacturer": "rolls-royce",
     "model": "spectre",
-    "color": "silver"
+    "color": "silver",
+    "image": "/images/rollsroyce.jpg"
   }
 ]
