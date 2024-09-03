@@ -23,6 +23,10 @@ Car.init(
       type: DataTypes.STRING,
       allowNull: false
     },
+    image: {
+      type: DataTypes.STRING,
+      allowNull: false
+    },
     availablility: {
       type: DataTypes.BOOLEAN,
       allowNull: false,
